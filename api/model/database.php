@@ -6,7 +6,7 @@ Class MyDatabase
     $server="localhost";
     $user="root";
     $pass="maysalon007";
-    $database="screenme";
+    $database="grit";
     $this->con=mysqli_connect($server,$user,$pass,$database);
     $this->conset=mysqli_set_charset($this->con,'UTF8');
   }//function MyDatabase

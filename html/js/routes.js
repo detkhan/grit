@@ -2,8 +2,8 @@ var routes = [
   // Index page
   {
     path: '/',
-    el: document.querySelector('.page[data-name="home"]'),
-    name: 'home',
+    el: document.querySelector('.page[data-name="index"]'),
+    name: 'index',
   },
   // Index page
   {
@@ -19,9 +19,15 @@ var routes = [
   },
   // sign_up page
   {
-    path: '/signup/user/:userId',
-    componentUrl: './pages/signup.html',
+    path: '/signup/',
+    url: './pages/signup.html',
     name: 'signup',
+  },
+  // sign_up page
+  {
+    path: '/user_profile/',
+    url: './pages/user_profile.html',
+    name: 'user_profile',
   },
   // menu
   {

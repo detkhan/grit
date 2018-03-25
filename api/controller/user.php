@@ -19,9 +19,25 @@ $model=new Users();
 $response=$model->login($param);
 $data= json_encode($response);
 echo $data;
-}
+}//login
 
-}
+
+public function checkemail($param)
+{
+$model=new Users();
+$response=$model->checkemail($param);
+$data= json_encode($response);
+echo $data;
+}//login
+
+
+public function adduser($param)
+{
+$model=new Users();
+$response=$model->adduser($param);
+}//adduser
+
+}//class user
 
 
  ?>

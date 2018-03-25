@@ -1,8 +1,8 @@
 // Init app
 var $$ = Dom7;
 var user_id='';
-var track='';
-var hosturl="127.0.0.1/screennew/";
+var track_id='';
+var hosturl="127.0.0.1/grit/";
 // Theme
 var theme = 'auto';
 if (document.location.search.indexOf('theme=') >= 0) {
